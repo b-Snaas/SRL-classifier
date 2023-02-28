@@ -1,13 +1,13 @@
 ## This code preprocesses data files in the conll-u format, and then creates a classifier for Semantic Role Labeling.
 
 ## Running Instructions:
-Step 1: Libraries installation.
+Step 1: Libraries installation
 >pip install -r requirements.txt
 
-Step 2: Install parser.
-python -m spacy download en_core_web_sm
+Step 2: Install parser
+>python -m spacy download en_core_web_sm
 
-Step 3: Run the code.
+Step 3: Run the code
 >python main.py
 
 ### The features used in the model are:
